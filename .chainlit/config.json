@@ -1,0 +1,48 @@
+{
+  "name": "Corporate Hospitality Chatbot",
+  "theme": {
+    "font": {
+      "family": "Inter, 'Segoe UI', Roboto, sans-serif",
+      "size": "16px"
+    },
+    "colors": {
+      "primary": "#89253e",
+      "secondary": "#3a6186",
+      "background": "#f8f9fa",
+      "accent": "#f7b267"
+    },
+    "page_title": "Corporate Hospitality Chatbot",
+    "chat": {
+      "avatar": {
+        "assistant": "🏢",
+        "user": "👤"
+      },
+      "message": {
+        "background": "var(--cl-colors-background)",
+        "color": "var(--cl-colors-text)",
+        "border_radius": "12px",
+        "box_shadow": "0 4px 6px rgba(0, 0, 0, 0.1)"
+      },
+      "bot_message": {
+        "background": "linear-gradient(135deg, #3a6186, #89253e)",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "features": {
+    "speech_to_text": true
+  },
+  "ui": {
+    "show_readme": true,
+    "description": "AI-powered multilingual real estate assistant that helps agents communicate efficiently with clients."
+  },
+  "header": {
+    "app_title": "Corporate Hospitality Chatbot",
+    "default_author": "Real Estate Assistant",
+    "user_avatar": "👤"
+  },
+  "project": {
+    "project_id": "real-estate-chatbot-demo",
+    "client_version": "latest"
+  }
+}

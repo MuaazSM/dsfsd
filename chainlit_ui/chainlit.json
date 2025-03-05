@@ -1,0 +1,24 @@
+{
+    "name": "Real Estate Multilingual Assistant",
+    "logo": "https://cdn-icons-png.flaticon.com/512/1294/1294481.png",
+    "theme": {
+      "colors": {
+        "primary": "#007BFF",
+        "secondary": "#4CAF50"
+      },
+      "page_title": "Real Estate Multilingual Chatbot",
+      "chat": {
+        "avatar": {
+          "agent": "💼",
+          "user": "👤"
+        }
+      }
+    },
+    "features": {
+      "speech_to_text": true
+    },
+    "ui": {
+      "show_readme": true,
+      "description": "AI-powered real estate assistant that supports multiple Indian languages."
+    }
+  }

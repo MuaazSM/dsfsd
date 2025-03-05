@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: 0BSD
+# Author: Lasse Collin
+
+prefix=/Users/muaazshaikh/realestate-assistant/venv
+exec_prefix=/Users/muaazshaikh/realestate-assistant/venv
+libdir=/Users/muaazshaikh/realestate-assistant/venv/lib
+includedir=/Users/muaazshaikh/realestate-assistant/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.6.4
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread 

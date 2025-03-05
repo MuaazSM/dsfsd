@@ -1,0 +1,21 @@
+# Core dependencies
+chainlit
+langchain
+openai
+firebase-admin
+google-cloud-speech
+twilio
+python-dotenv
+
+# Language and translation
+langdetect
+
+# Utilities
+requests
+python-dateutil
+
+# Testing
+pytest
+passlib
+langchain_openai
+my_config
